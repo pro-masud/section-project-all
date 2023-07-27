@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'GeoSlab703 Md BT';
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+input:focus,textarea:focus,button:focus{
+    outline: none;
+}
+
+
+/* section-padding styling start */
+
+.section-padding{
+    position: relative;
+}
+
+.section-padding .section-bg{
+    background-image: url(./images/bb.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 61%;
+    background-size: cover;
+}
+
+
+.section-bg:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #5FC3BA;
+    content: "";
+    opacity: .8;
+}
+
+.section-padding .container{
+    position: relative;
+    z-index: 1;
+}
+
+
+/*  contact form styling */
+.contact-form{
+    padding: 60px 0 40px;
+}
+
+.contact-form h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 13px;
+    border: 1px solid transparent;
+    color: #333;
+    border-radius: 5px;
+}
+
+.contact-form input:focus{
+    border: 1px solid #333;
+}
+
+.contact-form input[type="submit"]{
+    width: auto;
+    padding: 10px 30px;
+    background-color: #fff;
+    color: #5FC3BA;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+.contact-form-details{
+    padding: 150px 0 100px 93px;
+}
+
+.contact-form-details h4{
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 599;
+    margin-bottom: 60px;
+  }
+  
+  .contact-form-details ul li{
+    margin-bottom: 5px;
+  }
+  .contact-form-details ul li a{
+    color: #7d7c7c;
+    display: block;
+  }
+
+  .contact-form-details ul li i{
+    font-size: 18px;
+    color: #5FC3BA;
+    margin-right: 4px;
+  }
+
+  .contact-form-details > a{
+    background-color: #5FC3BA;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-top: 30px;
+    display: inline-block;
+  }
